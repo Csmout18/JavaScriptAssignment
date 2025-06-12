@@ -30,7 +30,7 @@ console.log(`Today's spotlight: ${getRandomPhotoHighlight()}`);
 // Function 3: Calculate Total Booking Price
 // --------------------------------------
 
-const selectedPrices = [150, 300, 100]; 
+const selectedPrices = [150, 300, 500]; 
 
 function getTotalBookingPrice() {
   return selectedPrices.reduce((total, price) => total + price, 0);
